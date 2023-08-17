@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 
 const io = new Server({
   cors: {
-    origin: ["http://localhost:3000", "http://localhost:5173","https://main--starlit-mochi-d0dbf9.netlify.app"],
+    origin: ["http://localhost:3000", "http://localhost:5173","https://main--starlit-mochi-d0dbf9.netlify.app","https://chatfront-theta.vercel.app"],
   },
 });
 
